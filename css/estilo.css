@@ -1,0 +1,105 @@
+body {background: ;
+      background-image: url(../imagenes/comida-saludable.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;}
+nav {background-color: rgba(0,0,0, 0.35);
+    border:5px solid black;
+    padding: 2px;}
+#titulo {
+  letter-spacing: 6px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: fantasy;
+  color: black;
+  font-size: 80px;}
+
+#titulo:hover {color: red;}
+
+.cookpad {
+  background-color: white;
+}
+.subtitulo {
+  text-decoration: underline;
+  text-align: center;
+  font-family: cursive;
+  background-color: black;
+  color: grey;
+  font-size: 40px;
+}
+.subtitulo:hover {color: green;}
+
+section {background-color: rgba(0,0,0, 0.35);
+  border:5px solid black;
+  padding: 2px;
+  margin-top: 2px;
+  width: 75%}
+.titulo {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 40px;}
+.titulo:hover {color: blue;}
+
+aside {background-color: rgba(0,0,0, 0.35);
+  border:5px solid black;
+  padding: 2px;
+  margin-top: 2px;
+  width: 75%}
+div {
+  background-color: ;
+  padding: 2px;
+  margin-top: 2px;
+  border:5px solid black;
+  padding: 2px;
+  margin: 2px;}
+.flex-container {
+  background-color: ;
+  display: flex;
+  border:5px solid black;
+  padding: 2px;
+  margin: 2px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container div {
+  border:5px solid black;
+  padding: 2px;
+  margin: 2px;
+  background-color: rgba(0,0,0, 0.35);
+}
+.subt {
+  text-decoration: underline;
+  font-family: serif;
+  font-size: 30px}
+  .subt:hover {color: yellow;}
+.fuente {
+  text-align: center;
+  text-decoration: underline;
+  background-color: black;
+  font-style: oblique;}
+
+a:hover {background-color: gold}
+
+footer {border:5px solid black;
+  padding: 2px;
+  margin: 2px;}
+.foto {
+  height: 50px;
+}
+.foto1:hover {
+  background-color: gold;
+}
+
+.wsp {position:fixed;
+  width: 1%;
+  height: 1%;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 200px;
+  right: 100px;
+
+
+}
+.wsp:hover {transform: scale(1.1);}
+.subing {color: white;}
